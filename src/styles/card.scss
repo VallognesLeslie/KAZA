@@ -1,0 +1,27 @@
+.card {
+  width: 100%;
+  height: 255px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  background-color: #ff6060;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  h3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+  }
+}
