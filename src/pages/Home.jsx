@@ -8,7 +8,11 @@ import bannerImage from "../assets/Imagesource.png";
 const Home = () => {
   return (
     <div className="home">
-      <Banner title="Chez vous, partout et ailleurs" imageUrl={bannerImage} />
+      <Banner
+        title="Chez vous, partout et ailleurs"
+        imageUrl={bannerImage}
+        overlayOpacity={0.6}
+      />
       <div className="cards-container">
         {logements.map((logement) => (
           <Card
