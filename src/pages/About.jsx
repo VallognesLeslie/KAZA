@@ -4,7 +4,7 @@ import Banner from "../components/Banner";
 import Collapse from "../components/Collapse";
 import "../styles/about.scss";
 
-import aboutBanner from "../assets/Imagesource2.png";
+import aboutBanner from "../assets/aproposbanner.png";
 
 const About = () => {
   return (

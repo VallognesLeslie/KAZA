@@ -3,7 +3,7 @@ import Banner from "../components/Banner";
 import Card from "../components/Card";
 import logements from "../Data/logements.json";
 import "../styles/home.scss";
-import bannerImage from "../assets/Imagesource.png";
+import bannerImage from "../assets/accueilbanner.png";
 
 const Home = () => {
   return (
